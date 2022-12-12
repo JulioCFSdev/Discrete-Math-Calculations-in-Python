@@ -30,8 +30,12 @@ def fibonacci_series(n_series):
     
     return fibo_numbers, fibo_prime_numbers
 
+def CalcularSoma(a,b):
+    return a + b
 
-
+numero1 = int(input("Insira o primeiro valor"))
+numero2 = int(input("insira o segundo valor:"))
+print(CalcularSoma(numero1,numero2))
 print("Fibonacci Calculator")
 series = int(input("Please, Please enter the number of series for the fibonacc equation\n"))
 list_fibo = fibonacci_series(series)
